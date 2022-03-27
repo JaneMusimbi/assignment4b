@@ -1,5 +1,5 @@
 fun main (){
-    var output=multipleArray(arrayOf(30,50,70,100))
+    var output=multipleArray(arrayOf(10,20,30,400))
     println(output)
     var result=sumintegers(arrayOf("I am 9.0,53 kenya 15.22"))
     println(result)
