@@ -26,13 +26,13 @@ fun sumintegers(mixedArray:Array<Any>):Double{
     return add
 }
 fun name(sentence:Array<Char>):Int{
-    var y=0
+    var k=0
     sentence.forEach{vowel->
         if(vowel=='a' ||vowel=='o' ||vowel=='t' ||vowel=='n' ||vowel=='i' ||vowel=='u')
-            y++
+            k++
 
     }
-    return y
+    return k
 
 
 }
